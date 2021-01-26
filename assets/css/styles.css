@@ -513,4 +513,10 @@ img {
     right: 10%;
   }
 }
+
+@media screen and (max-width: 1337px) {
+  .home__img {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

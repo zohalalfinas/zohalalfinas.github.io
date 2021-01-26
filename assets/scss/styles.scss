@@ -228,6 +228,7 @@ img {
     right: 0;
     bottom: 0;
     width: 295px;
+    // display: none;
   }
 }
 
@@ -501,6 +502,13 @@ img {
   .home {
     &__img {
       right: 10%;
+    }
+  }
+}
+@media screen and(max-width: 1337px) {
+  .home {
+    &__img {
+      display: none;
     }
   }
 }
